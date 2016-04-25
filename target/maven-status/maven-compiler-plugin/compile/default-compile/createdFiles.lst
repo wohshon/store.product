@@ -1,0 +1,12 @@
+com/demo/store/entity/AbstractEntity.class
+com/demo/store/rest/product/ProductRestService.class
+com/demo/store/service/AbstractDataService.class
+com/demo/store/entity/product/Product_.class
+com/demo/store/rest/ApplicationConfig.class
+com/demo/store/service/DataService.class
+com/demo/store/entity/AbstractGeneratedIdEntity.class
+com/demo/store/entity/product/Product.class
+com/demo/store/entity/GenericEntity.class
+com/demo/store/service/product/ProductService.class
+com/demo/store/entity/AbstractEntity_.class
+com/demo/store/entity/AbstractGeneratedIdEntity_.class

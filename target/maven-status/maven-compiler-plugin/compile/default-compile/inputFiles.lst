@@ -1,0 +1,9 @@
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/entity/AbstractEntity.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/rest/product/ProductRestService.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/service/product/ProductService.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/entity/product/Product.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/service/DataService.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/entity/GenericEntity.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/service/AbstractDataService.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/rest/ApplicationConfig.java
+/home/virtuser/workspaces/microservices/store.product/src/main/java/com/demo/store/entity/AbstractGeneratedIdEntity.java
