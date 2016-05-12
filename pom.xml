@@ -53,8 +53,8 @@
         <version.war.plugin>2.1.1</version.war.plugin>
 
         <!-- maven-compiler-plugin -->
-        <maven.compiler.target>1.6</maven.compiler.target>
-        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
 
@@ -91,6 +91,13 @@
 			<artifactId>jta</artifactId>
 			<version>1.1</version>
 			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>1.4.4</version>
+			<scope>test</scope>
 		</dependency>
 
         <!-- First declare the APIs we depend on and need for compilation. All 
@@ -233,16 +240,23 @@
             <id>default</id>
             <activation>
                 <property>
-                    <name>!default</name>
+                    <name>default</name>
                 </property>
             </activation>
             <build>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+            </testResource>
+        </testResources>            
                 <plugins>
                     <plugin>
                         <artifactId>maven-surefire-plugin</artifactId>
                         <version>${version.surefire.plugin}</version>
                         <configuration>
-                            <skip>true</skip>
+<!--                             <skip>true</skip>
+ -->                            <skip>false</skip>
                         </configuration>
                     </plugin>
                 </plugins>
